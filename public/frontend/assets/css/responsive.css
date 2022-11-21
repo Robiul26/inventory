@@ -1,0 +1,135 @@
+@media screen and (min-width:992px) {
+    .menu-right {
+        position: absolute;
+        top: 17px;
+        right: 0;
+        z-index: 1;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: -590px;
+    }
+
+    .navbar-nav {
+        position: relative;
+        margin-right: 64px;
+    }
+
+    #mega-menu-box {
+        width: 1000px;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: -381px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .search-btn {
+        position: absolute;
+        right: 2px;
+        padding: 15px 25px;
+    }
+
+    .send-btn {
+        width: 100%;
+    }
+
+    .about-short-description {
+        padding-top: 50px;
+    }
+
+    #mega-menu-box {
+        width: 100%;
+        left: auto;
+        transform: none;
+    }
+
+    /* .dropdown-menu {
+        min-height: 280px;
+        overflow-y: auto;
+    } */
+    .menu-content h3 {
+        font-size: 15px;
+    }
+
+    .menu-icon i {
+        font-size: 1em;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    .category-name {
+        color: #e94914;
+        font-size: 37px;
+        font-weight: 800;
+        line-height: 50px;
+    }
+
+    .breadcrumb-item a {
+        font-size: 13px;
+    }
+
+    .breadcrumb-item.active {
+        font-size: 13px;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        font-size: 18px;
+    }
+
+    .bg-overlay {
+        height: auto;
+        padding-top: 73px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .feature-title a {
+        font-size: 22px;
+    }
+
+    .btn-icon {
+        padding: 5px 5px 5px 15px;
+    }
+
+    .pricing-table {
+        padding: 30px 13px 0;
+    }
+
+    #customer-testimonoals .item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .testimonial-author {
+        flex-direction: column;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .menu-container {
+        gap: 0px;
+    }
+
+    .project-details {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .project-details .p-d-left {
+        width: 100%;
+    }
+
+    .project-details .p-d-right {
+        width: 100%;
+    }
+
+}

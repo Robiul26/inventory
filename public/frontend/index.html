@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- owl carosol -->
+    <link
+      rel="stylesheet"
+      href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- custom css -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <title>Sherazi IT</title>
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <!-- Search form -->
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay"
+        >×</span
+      >
+      <div class="overlay-content">
+        <form action="#" class="search-form" id="searchForm">
+          <input type="text" placeholder="Search Sherazi IT" name="search" />
+          <button type="submit" class="search-form-icon">
+            <i class="search-icon fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Sherazi IT</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- <div class="mx-auto"></div> -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown has-mega-menu">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                id="mega-menu-box"
+                class="dropdown-menu p-4"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                   <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                     <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                    <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                   <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                     <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                    <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                   <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 p-0">
+                     <a href="./category-page.html">
+                      <div class="d-flex gap-4 p-2">
+                        <div class="menu-icon">
+                          <i class="fa fa-home"></i>
+                        </div>
+                        <div class="menu-content px-2">
+                          <h3>ERP Solutions</h3>
+                          <p>
+                            Our ERP Solutions can help businesses of all sizes
+                            handle procurement, project management, operations,
+                            financials, sales and more.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="view-btn text-center">
+                    <a class="btn more-btn-sm">More Services</a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="menu-right text-light align-items-center d-flex justify-content-center"
+        >
+          <a href="#" class="menu-button">Let's Talk</a>
+          <i
+            class="search-icon fa fa-search"
+            aria-hidden="true"
+            onclick="openSearch()"
+          ></i>
+          <div
+            class="menu-click align-items-center d-flex justify-content-center"
+          >
+            <p class="menu-txt">Menu</p>
+            <div class="stick-box">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar End -->
+
+
+    <!-- Slider -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/slider/1.webp"
+            class="d-block w-100"
+            alt="Slider-img"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slider/2.webp"
+            class="d-block w-100"
+            alt="Slider-img"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Slider End -->
+
+    <!-- Achievements -->
+    <section>
+      <div class="container">
+        <div class="py-5">
+          <h2 class="text-center">Our Achievements</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div
+              class="align-items-center d-flex flex-column justify-content-center"
+            >
+              <div class="count-value">
+                <span class="counter" data-target="10">0</span>
+                <span>+</span>
+              </div>
+              <p class="count-info">Years</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="align-items-center d-flex flex-column justify-content-center"
+            >
+              <div class="count-value">
+                <span class="counter" data-target="600">0</span>
+                <span>+</span>
+              </div>
+              <p class="count-info">Projects</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="align-items-center d-flex flex-column justify-content-center"
+            >
+              <div class="count-value">
+                <span class="counter" data-target="400">0</span>
+              </div>
+              <p class="count-info">Countries</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="align-items-center d-flex flex-column justify-content-center"
+            >
+              <div class="count-value">
+                <span class="counter" data-target="800">0</span>
+              </div>
+              <p class="count-info">Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section>
+      <div class="container py-5">
+        <div class="row feature-container">
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-solid fa-laptop-code fa-3x"></i>
+              </div>
+              <h5 class="feature-title">Web Design & Development</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-solid fa-camera fa-3x"></i>
+              </div>
+              <h5>Digital Marketing</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-solid fa-palette fa-3x"></i>
+              </div>
+              <h5>Creative Graphic Design</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-brands fa-searchengin fa-3x"></i>
+              </div>
+              <h5>Search Engine Optimization</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-solid fa-code fa-3x"></i>
+              </div>
+              <h5>Software Development</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-0">
+            <div class="feature align-items-center d-flex flex-column">
+              <div class="icon-box pb-3">
+                <i class="fa-solid fa-store fa-3x"></i>
+              </div>
+              <h5>E-Commerce solutions</h5>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium pariatur explicabo corrupti deleniti temporibus
+                nihil! Ipsa deleniti doloribus itaque eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4 py-5">
+            <div class="pricing-box">
+              <div class="pricing-table bg-shape">
+                <span class="title-table">Basic Website</span>
+                <div class="inner-table">
+                  <img src="./assets/images/price1.png" alt="icon-img" />
+                  <h2>
+                    <sup>৳</sup> 7,900
+                    <del class="del">৳12, 000 Taka</del>
+                  </h2>
+                  <p>ফ্রি! ডোমেইন এবং হোস্টিং</p>
+                  <div class="details">
+                    <ul>
+                      <li>Free Domain &amp; Hosting</li>
+                      <li>Total Page: 5 &amp; 1 Slider</li>
+                      <li>CMS: WordPress/Static</li>
+                      <li>Design Suggession: 1 (Fixed)</li>
+                      <li>2 Time Revision</li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="btn order-btn cu-btn-secondary btn-icon" href="#">
+                  Order now
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-5">
+            <div class="pricing-box">
+              <div class="pricing-table bg-shape">
+                <span class="title-table">Basic Website</span>
+                <div class="inner-table">
+                  <img src="./assets/images/price1.png" alt="icon-img" />
+                  <h2>
+                    <sup>৳</sup> 7,900
+                    <del class="del">৳12, 000 Taka</del>
+                  </h2>
+                  <p>ফ্রি! ডোমেইন এবং হোস্টিং</p>
+                  <div class="details">
+                    <ul>
+                      <li>Free Domain &amp; Hosting</li>
+                      <li>Total Page: 5 &amp; 1 Slider</li>
+                      <li>CMS: WordPress/Static</li>
+                      <li>Design Suggession: 1 (Fixed)</li>
+                      <li>2 Time Revision</li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="btn order-btn cu-btn-secondary btn-icon" href="#">
+                  Order now
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-5">
+            <div class="pricing-box">
+              <div class="pricing-table bg-shape">
+                <span class="title-table">Basic Website</span>
+                <div class="inner-table">
+                  <img src="./assets/images/price1.png" alt="icon-img" />
+                  <h2>
+                    <sup>৳</sup> 7,900
+                    <del class="del">৳12, 000 Taka</del>
+                  </h2>
+                  <p>ফ্রি! ডোমেইন এবং হোস্টিং</p>
+                  <div class="details">
+                    <ul>
+                      <li>Free Domain &amp; Hosting</li>
+                      <li>Total Page: 5 &amp; 1 Slider</li>
+                      <li>CMS: WordPress/Static</li>
+                      <li>Design Suggession: 1 (Fixed)</li>
+                      <li>2 Time Revision</li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="btn order-btn cu-btn-secondary btn-icon" href="#">
+                  Order now
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="testimonial-section" id="clients">
+      <div class="container-fluid py-5">
+        <div class="py-5" id="testimonil-heading">
+          <h2 class="text-center">Our Happy Clients</h2>
+        </div>
+        <div id="customer-testimonoals" class="owl-carousel owl-theme">
+          <div class="item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              pariatur excepturi ratione magni voluptates debitis expedita earum
+              iusto. Repellendus, expedita.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-img">
+                <img src="assets/images/ceo.png" alt="author-img" />
+              </div>
+              <div class="author-bio">
+                <span class="author-name">Bill Gates</span>
+                <span class="author-designation">CEO,</span>
+                <span class="author-company">Uttara Infotech</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              pariatur excepturi ratione magni voluptates debitis expedita earum
+              iusto. Repellendus, expedita.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-img">
+                <img src="assets/images/ceo.png" alt="author-img" />
+              </div>
+              <div class="author-bio">
+                <span class="author-name">Bill Gates</span>
+                <span class="author-designation">CEO,</span>
+                <span class="author-company">Uttara Infotech</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              pariatur excepturi ratione magni voluptates debitis expedita earum
+              iusto. Repellendus, expedita.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-img">
+                <img src="assets/images/ceo.png" alt="author-img" />
+              </div>
+              <div class="author-bio">
+                <span class="author-name">Bill Gates</span>
+                <span class="author-designation">CEO,</span>
+                <span class="author-company">Uttara Infotech</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              pariatur excepturi ratione magni voluptates debitis expedita earum
+              iusto. Repellendus, expedita.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-img">
+                <img src="assets/images/ceo.png" alt="author-img" />
+              </div>
+              <div class="author-bio">
+                <span class="author-name">Bill Gates</span>
+                <span class="author-designation">CEO,</span>
+                <span class="author-company">Uttara Infotech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+      <div class="container py-5">
+        <div class="py-5">
+          <h2 class="text-center">How to Order?</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="video-container">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/mgO9ObbVeJ8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer-section">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="pb-4">Address</h3>
+            <div class="footer-address-widget">
+              <p>Sherazi IT , Uttara, Dhaka 1207</p>
+              <p>+88 010 0000 0000</p>
+              <p>sheraziit@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3 class="pb-4">Support</h3>
+            <ul class="footer-link-widget">
+              <li><a href="#">My account</a></li>
+              <li><a href="#">How to Order</a></li>
+              <li><a href="#">Learn & Course</a></li>
+              <li><a href="#">Refund & Returns Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="pb-4">Community</h3>
+            <ul class="footer-link-widget">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Https Software</a></li>
+              <li><a href="#">Nextsolve</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer bottm section -->
+    <section class="footer-bottom-section">
+      <div class="container">
+        <div>
+          <p class="text-center mb-0 py-3">
+            2022 &copy; All Rights Reserved by Sherazi IT
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <!-- owl carasol -->
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          center: true,
+          items: 3,
+          margin: 0,
+          autoplay: true,
+          dots: false,
+          autoplayTimeout: 8500,
+          smartSpeed: 450,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+
+    <script>
+      const counters = document.querySelectorAll(".counter");
+      const speed = 800; // The lower the slower
+
+      counters.forEach((counter) => {
+        const updateCount = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+
+          // Lower inc to slow and higher to slow
+          const inc = target / speed;
+
+          // Check if target is reached
+          if (count < target) {
+            if(target < 100){
+              counter.innerText =  Math.ceil(count + inc);
+            }else{
+              counter.innerText = Math.round(count + inc);
+            }
+            // Add inc to count and output in counter
+
+            // Call function every ms
+            setTimeout(updateCount, 10);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        updateCount();
+      });
+    </script>
+    <script>
+      function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
